@@ -1,0 +1,151 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg);
+    padding: 12px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+ul{
+    display: flex;
+    gap: 4px;
+}
+a, li {
+    text-decoration: none;
+    list-style: none;   
+    color: snow;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 12px 6px;
+    position: relative;
+    transition: ease-in-out .3s;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: var(--accent);
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: snow;
+}
+a:hover {
+    color: var(--accent);
+}
+
+a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.previas-btn {
+    background-color: var(--primary);
+    padding: 10px 12px;
+    color: snow;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+.previas-btn:hover{
+    background-color: var(--accent);
+    transform: scaleX(1.05);
+}
+
+/* Responsividad y Menu */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    height: 21px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu-toggle span {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: snow;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: fit-content;
+    height: 100vh;
+    background-color: var(--bg);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: left 0.3s ease;
+    z-index: 999;
+    padding: 20px;
+    padding-top: 70px;
+
+}
+
+.side-menu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.side-menu.active {
+    left: 0;
+}
+
+.menu-toggle.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 998;
+}
+
+.overlay.active {
+    display: block;
+}
+
+@media screen and (max-width: 940px) {
+    .menu-toggle {
+        display: flex;
+    }
+    
+    nav ul {
+        display: none;
+    }
+    
+    .previas-btn {
+        margin-right: 40px;
+    }
+}

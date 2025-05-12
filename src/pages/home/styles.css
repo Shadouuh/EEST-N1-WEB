@@ -1,0 +1,57 @@
+.hero-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.65)), url('../../assets/images/hero-img.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-header h1 {
+    font-size: 3rem;
+    color: snow;
+    font-weight: 600;
+}
+.hero-header p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: snow;
+}
+.hero-buttons{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+.hero-btn{
+    padding: 10px 30px;
+    font-size: 0.9rem;
+    border-radius: 40px;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+.red {
+    background-color: var(--primary);
+    border: none;
+    color: snow;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.red:hover{
+    background-color: var(--accent);
+}
+.white {
+    border: solid 2px white;
+    background-color: #0d10169f;
+    color: snow;
+}
+.white:hover{
+    background-color: snow;
+    color: black;
+}
+.hero-btn:hover {
+    transform: scaleY(1.1);
+}
