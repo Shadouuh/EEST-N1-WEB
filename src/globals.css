@@ -1,0 +1,7 @@
+:root{
+    --primary: #A50000;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat.ttf') format('truetype');
+}
