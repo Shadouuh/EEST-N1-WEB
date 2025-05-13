@@ -8,6 +8,7 @@ import './globals.css';
 // Componentes | Paginas
 import Navbar from "./components/navbar/Navbar.jsx";
 import Home from "./pages/home/Home.jsx";
+import Bibloteca from "./pages/bibloteca/Bibloteca.jsx";
 const App = () => {
   return(
     <div className="app-container">
@@ -18,6 +19,7 @@ const App = () => {
       <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/biblioteca" element={<Bibloteca />} />
           </Routes>
       </main>
       <footer>

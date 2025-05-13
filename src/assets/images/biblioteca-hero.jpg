@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <!-- Fondo de la biblioteca -->
+  <rect width="1200" height="600" fill="#1a1a1a"/>
+  
+  <!-- Estanterías de libros -->
+  <g>
+    <!-- Estantería 1 -->
+    <rect x="100" y="100" width="300" height="400" fill="#5e3b22"/>
+    <rect x="110" y="110" width="280" height="380" fill="#8b5a2b"/>
+    
+    <!-- Divisiones de estantes -->
+    <rect x="110" y="190" width="280" height="10" fill="#5e3b22"/>
+    <rect x="110" y="270" width="280" height="10" fill="#5e3b22"/>
+    <rect x="110" y="350" width="280" height="10" fill="#5e3b22"/>
+    <rect x="110" y="430" width="280" height="10" fill="#5e3b22"/>
+    
+    <!-- Libros en estantería 1 -->
+    <g>
+      <!-- Fila 1 -->
+      <rect x="120" y="120" width="20" height="70" fill="#8a0000"/>
+      <rect x="145" y="120" width="15" height="70" fill="#2e4b8a"/>
+      <rect x="165" y="120" width="25" height="70" fill="#3c6e47"/>
+      <rect x="195" y="120" width="18" height="70" fill="#8a0000"/>
+      <rect x="218" y="120" width="22" height="70" fill="#8a5a3b"/>
+      <rect x="245" y="120" width="15" height="70" fill="#2e4b8a"/>
+      <rect x="265" y="120" width="20" height="70" fill="#8a0000"/>
+      <rect x="290" y="120" width="25" height="70" fill="#3c6e47"/>
+      <rect x="320" y="120" width="18" height="70" fill="#8a5a3b"/>
+      <rect x="343" y="120" width="22" height="70" fill="#2e4b8a"/>
+      
+      <!-- Fila 2 -->
+      <rect x="120" y="200" width="25" height="70" fill="#3c6e47"/>
+      <rect x="150" y="200" width="18" height="70" fill="#8a0000"/>
+      <rect x="173" y="200" width="22" height="70" fill="#8a5a3b"/>
+      <rect x="200" y="200" width="15" height="70" fill="#2e4b8a"/>
+      <rect x="220" y="200" width="20" height="70" fill="#8a0000"/>
+      <rect x="245" y="200" width="25" height="70" fill="#3c6e47"/>
+      <rect x="275" y="200" width="18" height="70" fill="#8a5a3b"/>
+      <rect x="298" y="200" width="22" height="70" fill="#2e4b8a"/>
+      <rect x="325" y="200" width="20" height="70" fill="#8a0000"/>
+      <rect x="350" y="200" width="15" height="70" fill="#3c6e47"/>
+      
+      <!-- Fila 3 -->
+      <rect x="120" y="280" width="18" height="70" fill="#8a5a3b"/>
+      <rect x="143" y="280" width="22" height="70" fill="#2e4b8a"/>
+      <rect x="170" y="280" width="20" height="70" fill="#8a0000"/>
+      <rect x="195" y="280" width="15" height="70" fill="#3c6e47"/>
+      <rect x="215" y="280" width="25" height="70" fill="#8a5a3b"/>
+      <rect x="245" y="280" width="18" height="70" fill="#2e4b8a"/>
+      <rect x="268" y="280" width="22" height="70" fill="#8a0000"/>
+      <rect x="295" y="280" width="20" height="70" fill="#3c6e47"/>
+      <rect x="320" y="280" width="15" height="70" fill="#8a5a3b"/>
+      <rect x="340" y="280" width="25" height="70" fill="#2e4b8a"/>
+    </g>
+    
+    <!-- Estantería 2 -->
+    <rect x="500" y="150" width="300" height="350" fill="#5e3b22"/>
+    <rect x="510" y="160" width="280" height="330" fill="#8b5a2b"/>
+    
+    <!-- Divisiones de estantes -->
+    <rect x="510" y="230" width="280" height="10" fill="#5e3b22"/>
+    <rect x="510" y="300" width="280" height="10" fill="#5e3b22"/>
+    <rect x="510" y="370" width="280" height="10" fill="#5e3b22"/>
+    <rect x="510" y="440" width="280" height="10" fill="#5e3b22"/>
+    
+    <!-- Libros en estantería 2 -->
+    <g>
+      <!-- Fila 1 -->
+      <rect x="520" y="170" width="20" height="60" fill="#8a0000"/>
+      <rect x="545" y="170" width="15" height="60" fill="#2e4b8a"/>
+      <rect x="565" y="170" width="25" height="60" fill="#3c6e47"/>
+      <rect x="595" y="170" width="18" height="60" fill="#8a0000"/>
+      <rect x="618" y="170" width="22" height="60" fill="#8a5a3b"/>
+      <rect x="645" y="170" width="15" height="60" fill="#2e4b8a"/>
+      <rect x="665" y="170" width="20" height="60" fill="#8a0000"/>
+      <rect x="690" y="170" width="25" height="60" fill="#3c6e47"/>
+      <rect x="720" y="170" width="18" height="60" fill="#8a5a3b"/>
+      <rect x="743" y="170" width="22" height="60" fill="#2e4b8a"/>
+      
+      <!-- Fila 2 -->
+      <rect x="520" y="240" width="25" height="60" fill="#3c6e47"/>
+      <rect x="550" y="240" width="18" height="60" fill="#8a0000"/>
+      <rect x="573" y="240" width="22" height="60" fill="#8a5a3b"/>
+      <rect x="600" y="240" width="15" height="60" fill="#2e4b8a"/>
+      <rect x="620" y="240" width="20" height="60" fill="#8a0000"/>
+      <rect x="645" y="240" width="25" height="60" fill="#3c6e47"/>
+      <rect x="675" y="240" width="18" height="60" fill="#8a5a3b"/>
+      <rect x="698" y="240" width="22" height="60" fill="#2e4b8a"/>
+      <rect x="725" y="240" width="20" height="60" fill="#8a0000"/>
+      <rect x="750" y="240" width="15" height="60" fill="#3c6e47"/>
+    </g>
+    
+    <!-- Estantería 3 -->
+    <rect x="850" y="100" width="250" height="400" fill="#5e3b22"/>
+    <rect x="860" y="110" width="230" height="380" fill="#8b5a2b"/>
+    
+    <!-- Divisiones de estantes -->
+    <rect x="860" y="190" width="230" height="10" fill="#5e3b22"/>
+    <rect x="860" y="270" width="230" height="10" fill="#5e3b22"/>
+    <rect x="860" y="350" width="230" height="10" fill="#5e3b22"/>
+    <rect x="860" y="430" width="230" height="10" fill="#5e3b22"/>
+    
+    <!-- Libros en estantería 3 -->
+    <g>
+      <!-- Fila 1 -->
+      <rect x="870" y="120" width="20" height="70" fill="#8a0000"/>
+      <rect x="895" y="120" width="15" height="70" fill="#2e4b8a"/>
+      <rect x="915" y="120" width="25" height="70" fill="#3c6e47"/>
+      <rect x="945" y="120" width="18" height="70" fill="#8a0000"/>
+      <rect x="968" y="120" width="22" height="70" fill="#8a5a3b"/>
+      <rect x="995" y="120" width="15" height="70" fill="#2e4b8a"/>
+      <rect x="1015" y="120" width="20" height="70" fill="#8a0000"/>
+      <rect x="1040" y="120" width="25" height="70" fill="#3c6e47"/>
+      
+      <!-- Fila 2 -->
+      <rect x="870" y="200" width="25" height="70" fill="#3c6e47"/>
+      <rect x="900" y="200" width="18" height="70" fill="#8a0000"/>
+      <rect x="923" y="200" width="22" height="70" fill="#8a5a3b"/>
+      <rect x="950" y="200" width="15" height="70" fill="#2e4b8a"/>
+      <rect x="970" y="200" width="20" height="70" fill="#8a0000"/>
+      <rect x="995" y="200" width="25" height="70" fill="#3c6e47"/>
+      <rect x="1025" y="200" width="18" height="70" fill="#8a5a3b"/>
+      <rect x="1048" y="200" width="22" height="70" fill="#2e4b8a"/>
+    </g>
+  </g>
+  
+  <!-- Mesa de lectura -->
+  <rect x="400" y="500" width="400" height="20" fill="#5e3b22"/>
+  <rect x="410" y="520" width="20" height="80" fill="#5e3b22"/>
+  <rect x="770" y="520" width="20" height="80" fill="#5e3b22"/>
+  
+  <!-- Libros en la mesa -->
+  <rect x="450" y="480" width="30" height="20" fill="#8a0000"/>
+  <rect x="490" y="485" width="25" height="15" fill="#2e4b8a"/>
+  <rect x="530" y="475" width="35" height="25" fill="#3c6e47"/>
+  
+  <!-- Lámpara de techo -->
+  <circle cx="600" cy="50" r="30" fill="#f9d71c" opacity="0.8">
+    <animate attributeName="opacity" values="0.7;0.9;0.7" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="600" cy="50" r="50" fill="#f9d71c" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Efecto de luz -->
+  <polygon points="550,50 650,50 800,500 400,500" fill="#f9d71c" opacity="0.1">
+    <animate attributeName="opacity" values="0.05;0.15;0.05" dur="3s" repeatCount="indefinite" />
+  </polygon>
+</svg>
