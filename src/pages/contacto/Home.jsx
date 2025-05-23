@@ -55,63 +55,9 @@ const Home = () => {
                     <h2>Nuestras <span>Orientaciones</span></h2>
                     <p>Formamos profesionales técnicos con las habilidades necesarias para destacar en el mundo tecnológico actual</p>
                 </div>
-                <section className="orientaciones-container">
-                    <div className="orientacion-detail-card">
-                        <div className="orientacion-image">
-                            <h2>Informática</h2>
-                            <p>Especialista en Sistemas y Redes</p>
-                        </div>
-                        <div className="orientacion-info">
-                            <h3>¿Por qué elegir Informática?</h3>
-                            <p>Si te apasiona el hardware, las redes y la administración de sistemas, esta orientación es para ti. Te convertirás en un experto capaz de:</p>
-                            <ul className="orientacion-features">
-                                <li>Diseñar, implementar y administrar redes informáticas</li>
-                                <li>Instalar y configurar sistemas operativos y servidores</li>
-                                <li>Mantener y reparar equipos informáticos</li>
-                                <li>Implementar medidas de seguridad informática</li>
-                            </ul>
-                            
-                            <div className="salida-laboral">
-                                <h4>Salida Laboral</h4>
-                                <p>Los graduados de esta orientación pueden trabajar como:</p>
-                                <div className="job-tags">
-                                    <span className="job-tag">Administrador de sistemas</span>
-                                    <span className="job-tag">Técnico en soporte IT</span>
-                                    <span className="job-tag">Especialista en seguridad</span>
-                                    <span className="job-tag">Consultor tecnológico</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div className="orientacion-detail-card">
-                        <div className="orientacion-image programacion">
-                            <h2>Programación</h2>
-                            <p>Desarrollador de Software</p>
-                        </div>
-                        <div className="orientacion-info">
-                            <h3>¿Por qué elegir Programación?</h3>
-                            <p>Si te fascina crear aplicaciones, resolver problemas con código y dar vida a ideas innovadoras, esta orientación te convertirá en un desarrollador capaz de:</p>
-                            <ul className="orientacion-features">
-                                <li>Desarrollar aplicaciones web y móviles</li>
-                                <li>Crear y gestionar bases de datos</li>
-                                <li>Implementar algoritmos y estructuras de datos</li>
-                                <li>Diseñar interfaces de usuario atractivas</li>
-                            </ul>
-                            
-                            <div className="salida-laboral">
-                                <h4>Salida Laboral</h4>
-                                <p>Los graduados de esta orientación pueden trabajar como:</p>
-                                <div className="job-tags">
-                                    <span className="job-tag">Desarrollador web</span>
-                                    <span className="job-tag">Desarrollador móvil</span>
-                                    <span className="job-tag">Analista de sistemas</span>
-                                    <span className="job-tag">Emprendedor tech</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <div className="informatica-image">
+                <img src={Informatica} alt="" />
+                </div>
                 
             </section>
             <section className="cursos-inicio">

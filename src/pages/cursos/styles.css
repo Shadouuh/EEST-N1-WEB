@@ -1,0 +1,146 @@
+/* Cursos Section */
+.cursos-section {
+    padding: 3rem 2rem;
+}
+
+.ciclo-title {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 2.5rem 0 1.5rem;
+    color: #333;
+}
+
+.cursos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto 3rem;
+}
+
+.cursos-grid .curso-card {
+    width: fit-content;
+    padding: 0.8rem;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+    transition: 0.3s ease-in-out;
+}
+
+.cursos-grid .curso-card:hover {
+    border-color: var(--primary);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: none;
+}
+
+.curso-year {
+    color: var(--primary);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.curso-subtitle {
+    color: #666;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.ver-divisiones {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #000;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.ver-divisiones:hover {
+    border-color: var(--primary);
+    background-color: var(--primary);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .cursos-grid {
+        gap: 1rem;
+    }
+    
+    .curso-card {
+        width: calc(50% - 1rem);
+        min-width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .curso-card {
+        width: 100%;
+    }
+}
+
+
+/* Sección de Ayuda con Materias */
+.ayuda-materias-section {
+    background-color: var(--bg);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 2rem;
+    border-bottom: solid 1px var(--border);
+}
+
+.ayuda-materias-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ayuda-materias-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.ayuda-materias-section p {
+    font-size: 1.1rem;
+    color: snow;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.intensificacion-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.intensificacion-btn span {
+    margin-left: 8px;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.intensificacion-btn:hover {
+    background-color: white;
+    color: #000;
+    transform: translateY(-3px);
+}
+
+.intensificacion-btn:hover span {
+    transform: translateX(3px);
+}

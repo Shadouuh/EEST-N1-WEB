@@ -9,6 +9,9 @@ import './globals.css';
 import Navbar from "./components/navbar/Navbar.jsx";
 import Home from "./pages/home/Home.jsx";
 import Bibloteca from "./pages/bibloteca/Bibloteca.jsx";
+import Cursos from "./pages/cursos/Cursos.jsx";
+import Olimpiadas from "./pages/olimpiadas/Olimpiadas.jsx";
+import Previas from "./pages/previas/Previas.jsx";
 const App = () => {
   return(
     <div className="app-container">
@@ -20,6 +23,9 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/biblioteca" element={<Bibloteca />} />
+            <Route path="/cursos" element={<Cursos />} />
+            <Route path="/olimpiadas" element={<Olimpiadas />} />
+            <Route path="/intensificacion" element={<Previas/>} />
           </Routes>
       </main>
       <footer>

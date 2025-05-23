@@ -43,7 +43,7 @@ a:hover {
     color: var(--accent);
 }
 
-a:hover::after {
+ul a:hover::after {
     width: 100%;
     left: 0;
 }

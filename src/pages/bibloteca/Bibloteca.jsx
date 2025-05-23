@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles.css';
-import { LuBook, LuClock, LuCalendarCheck, LuBookOpen } from 'react-icons/lu';
+import { LuBook, LuClock, LuCalendarCheck, LuBookOpen, LuBanana, 
+         LuUserCheck, LuLayoutGrid, LuPencil,
+         LuUsers, LuBookmarkX} from 'react-icons/lu';
 
 const Bibloteca = () => {
     // Datos de ejemplo para el catálogo de libros
@@ -21,63 +23,119 @@ const Bibloteca = () => {
                     <p>Un espacio para el conocimiento y la investigación</p>
                 </div>
             </section>
-
-            <section className="normas-container">
-                <h2>Normas de la Biblioteca</h2>
-                <div className="normas-grid">
-                    <div className="norma-card">
-                        <div className="norma-icon">
-                            <LuBook size={24} />
-                        </div>
-                        <h3>Préstamos de Libros</h3>
-                        <p>Los préstamos tienen una duración de 7 días hábiles. Cada estudiante puede retirar hasta 2 libros simultáneamente presentando su credencial escolar.</p>
-                    </div>
-                    <div className="norma-card">
-                        <div className="norma-icon">
-                            <LuClock size={24} />
-                        </div>
-                        <h3>Horarios de Atención</h3>
-                        <p>Lunes a Viernes de 8:00 a 17:00 hs. Durante los recreos la biblioteca permanece cerrada excepto para devoluciones rápidas.</p>
-                    </div>
-                    <div className="norma-card">
-                        <div className="norma-icon">
-                            <LuCalendarCheck size={24} />
-                        </div>
-                        <h3>Renovaciones</h3>
-                        <p>Se puede renovar el préstamo por 7 días adicionales, siempre que no exista una reserva previa de otro estudiante. Máximo 2 renovaciones por libro.</p>
-                    </div>
+            <section className="section">
+                <div className="header">
+                    <h2>Horarios de <span>Atencion</span></h2>
                 </div>
-            </section>
-
-            <section className="catalogo-container">
-                <h2>Catálogo de Libros</h2>
-                <div className="filtros-catalogo">
-                    <input type="text" placeholder="Buscar por título o autor" className="busqueda-input" />
-                    <select className="categoria-select">
-                        <option value="">Todas las categorías</option>
-                        <option value="Educación">Educación</option>
-                        <option value="Historia">Historia</option>
-                        <option value="Ciencias">Ciencias</option>
-                        <option value="Literatura">Literatura</option>
-                        <option value="Informática">Informática</option>
-                    </select>
-                </div>
-                <div className="libros-grid">
-                    {libros.map(libro => (
-                        <div key={libro.id} className={`libro-card ${!libro.disponible ? 'no-disponible' : ''}`}>
-                            <div className="libro-icon">
-                                <LuBookOpen size={32} />
+                <div className="horarios-container">
+                    <div className="horario">
+                        <div className="top">
+                            <div className="feature-icon square">
+                                <LuClock />
                             </div>
-                            <h3>{libro.titulo}</h3>
-                            <p className="libro-autor">Autor: {libro.autor}</p>
-                            <p className="libro-categoria">Categoría: {libro.categoria}</p>
-                            <p className={`libro-estado ${libro.disponible ? 'disponible' : 'no-disponible'}`}>
-                                {libro.disponible ? 'Disponible' : 'En préstamo'}
-                            </p>
+                            <p>Turno Mañana</p>
                         </div>
-                    ))}
+                        <p>Lunes - Viernes</p>
+                        <h4>07:30 - 12:00</h4>
+                    </div>
+                    <div className="horario">
+                        <div className="top">
+                            <div className="feature-icon square">
+                                <LuClock />
+                            </div>
+                            <p>Turno Tarde</p>
+                        </div>
+                        <p>Lunes - Viernes</p>
+                        <h4>12:00 - 17:20</h4>
+                    </div>
+
                 </div>
             </section>
+            <section className="section gray">
+                <div className="header">
+                    <h2>Pautas de <span>Convivencia</span></h2>
+                    <p>Para el buen funcionamiento de nuestra Biblioteca</p>
+                </div>
+                <div className="pautas-container">
+                    <div className="pauta-card">
+                        <div className="pauta-icon">
+                            <LuUsers />
+                        </div>
+                        <h3>Acceso a Biblioteca</h3>
+                        <p>Toda la Comunidad Educativa tiene acceso libre gratuito</p>
+                    </div>
+                    
+                    <div className="pauta-card">
+                        <div className="pauta-icon">
+                            <LuBanana />
+                        </div>
+                        <h3>No ingresar con alimentos</h3>
+                        <p>Prohibido comer o beber dentro de la biblioteca</p>
+                    </div>
+                    
+                    <div className="pauta-card">
+                        <div className="pauta-icon">
+                            <LuUserCheck />
+                        </div>
+                        <h3>Normas de Convivencia</h3>
+                        <p>Practicar las normas de convivencia al ingresar</p>
+                    </div>
+                    
+                    <div className="pauta-card">
+                        <div className="pauta-icon">
+                            <LuBookOpen />
+                        </div>
+                        <h3>Cuidar el material</h3>
+                        <p>Solicitar y retirarlo una vez registrado</p>
+                    </div>
+                    
+                    <div className="pauta-card">
+                        <div className="pauta-icon">
+                            <LuLayoutGrid />
+                        </div>
+                        <h3>Controlar el Material</h3>
+                        <p>Los Materiales deben ser registrados y controlados en el aula</p>
+                    </div>
+                    
+                    <div className="pauta-card">
+                        <div className="pauta-icon">
+                            <LuPencil />
+                        </div>
+                        <h3>No marcar los libros</h3>
+                        <p>Prohibido subrayar o escribir en el material</p>
+                    </div>
+                    
+                    <div className="pauta-card">
+                        <div className="pauta-icon">
+                            <LuClock />
+                        </div>
+                        <h3>Respetar los plazos</h3>
+                        <p>El Plazo maximo es de 2 dias, presentando libreta.</p>
+                    </div>
+                    
+                    <div className="pauta-card">
+                        <div className="pauta-icon">
+                            <LuBookmarkX />
+                        </div>
+                        <h3>Reportar daños</h3>
+                        <p>Perdida, o Devolucion en mal estado, se sancionara por acta</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                
+            </section>
+
+            <section className="ayuda-section">
+                <div className="ayuda-content">
+                    <h2>¿Necesitas ayuda con tu investigación?</h2>
+                    <p>Nuestro personal bibliotecario está disponible para ayudarte a encontrar los recursos que necesitas</p>
+                    <button className="contactar-btn">
+                        Contactar a Biblioteca <span>›</span>
+                    </button>
+                </div>
+            </section>
+
         </div>
     );
 };
