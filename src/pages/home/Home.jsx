@@ -20,35 +20,59 @@ const Home = () => {
                 </div>
             </section>
             <section className="features">
-                <div className="feature-card">
-                    <div className="feature-icon">
-                        <LuCalendar stroke="#8a0000" size={24}/>
+                <div className="features-container">
+                    <div className="feature-card modern">
+                        <div className="feature-content">
+                            <div className="feature-icon">
+                                <LuCalendar stroke="white" size={32}/>
+                            </div>
+                            <div className="feature-text">
+                                <h3>Desde 1968</h3>
+                                <p>Más de 55 años formando profesionales técnicos de excelencia</p>
+                            </div>
+                        </div>
+                        <div className="feature-gradient"></div>
                     </div>
-                    <h3>Desde 1985</h3>
-                    <p>Más de 35 años formando profesionales técnicos de excelencia para el mundo laboral</p>
-                </div>
-                <div className="feature-card">
-                    <div className="feature-icon">
-                        <LuUsers stroke="#8a0000" size={24}/>
+                    
+                    <div className="feature-card modern">
+                        <div className="feature-content">
+                            <div className="feature-icon">
+                                <LuUsers stroke="white" size={32}/>
+                            </div>
+                            <div className="feature-text">
+                                <h3>1200+ Estudiantes</h3>
+                                <p>Jóvenes con grandes ideas construyendo su futuro técnico</p>
+                            </div>
+                        </div>
+                        <div className="feature-gradient"></div>
                     </div>
-                    <h3>1200+ Estudiantes</h3>
-                    <p>Alumnos, con grandes ideas y aspiraciones, convirtiendose cada dia en un mejor futuro tecnico</p>
-                </div>
-                <div className="feature-card">
-                    <div className="feature-icon">
-                        <LuGraduationCap stroke="#8a0000" size={24}/>
+                    
+                    <div className="feature-card modern">
+                        <div className="feature-content">
+                            <div className="feature-icon">
+                                <LuGraduationCap stroke="white" size={32}/>
+                            </div>
+                            <div className="feature-text">
+                                <h3>400+ Egresados</h3>
+                                <p>Profesionales destacados en empresas nacionales e internacionales</p>
+                            </div>
+                        </div>
+                        <div className="feature-gradient"></div>
                     </div>
-                    <h3>400+ Egresados</h3>
-                    <p>Profesionales destacados en empresas nacionales e internacionales</p>
-                </div>
-                <div className="feature-card">
-                    <div className="feature-icon">
-                    <LuBuilding  stroke="#8a0000" size={24}/>
+                    
+                    <div className="feature-card modern">
+                        <div className="feature-content">
+                            <div className="feature-icon">
+                                <LuBuilding stroke="white" size={32}/>
+                            </div>
+                            <div className="feature-text">
+                                <h3>Convenios Activos</h3>
+                                <p>Alianzas estratégicas con empresas del sector tecnológico</p>
+                            </div>
+                        </div>
+                        <div className="feature-gradient"></div>
                     </div>
-                    <h3>2+ Empresas</h3>
-                    <p>Alianzas estratégicas con las principales compañías del sector tecnológico</p>
                 </div>
-                
             </section>
             <section className="orientaciones-inicio gray">
                 <div className="orientaciones-header">
@@ -56,58 +80,92 @@ const Home = () => {
                     <p>Formamos profesionales técnicos con las habilidades necesarias para destacar en el mundo tecnológico actual</p>
                 </div>
                 <section className="orientaciones-container">
-                    <div className="orientacion-detail-card">
-                        <div className="orientacion-image">
-                            <h2>Informática</h2>
-                            <p>Especialista en Sistemas y Redes</p>
-                        </div>
-                        <div className="orientacion-info">
-                            <h3>¿Por qué elegir Informática?</h3>
-                            <p>Si te apasiona el hardware, las redes y la administración de sistemas, esta orientación es para ti. Te convertirás en un experto capaz de:</p>
-                            <ul className="orientacion-features">
-                                <li>Diseñar, implementar y administrar redes informáticas</li>
-                                <li>Instalar y configurar sistemas operativos y servidores</li>
-                                <li>Mantener y reparar equipos informáticos</li>
-                                <li>Implementar medidas de seguridad informática</li>
-                            </ul>
-                            
-                            <div className="salida-laboral">
-                                <h4>Salida Laboral</h4>
-                                <p>Los graduados de esta orientación pueden trabajar como:</p>
-                                <div className="job-tags">
-                                    <span className="job-tag">Administrador de sistemas</span>
-                                    <span className="job-tag">Técnico en soporte IT</span>
-                                    <span className="job-tag">Especialista en seguridad</span>
-                                    <span className="job-tag">Consultor tecnológico</span>
+                    <div className="orientacion-card-modern">
+                        <div className="orientacion-visual">
+                            <div className="orientacion-overlay">
+                                <div className="orientacion-icon">
+                                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20 3H4C2.9 3 2 3.9 2 5V19C2 20.1 2.9 21 4 21H20C21.1 21 22 20.1 22 19V5C22 3.9 21.1 3 20 3ZM20 19H4V5H20V19Z" fill="white"/>
+                                        <path d="M6 7H18V9H6V7ZM6 11H18V13H6V11ZM6 15H14V17H6V15Z" fill="white"/>
+                                    </svg>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="orientacion-content">
+                            <div className="orientacion-header">
+                                <h3>Informática</h3>
+                                <span className="orientacion-badge">Sistemas y Redes</span>
+                            </div>
+                            <p className="orientacion-description">
+                                Especialízate en hardware, redes y administración de sistemas. Conviértete en un experto en infraestructura tecnológica.
+                            </p>
+                            <div className="orientacion-skills">
+                                <div className="skill-item">
+                                    <span className="skill-dot"></span>
+                                    <span>Administración de redes</span>
+                                </div>
+                                <div className="skill-item">
+                                    <span className="skill-dot"></span>
+                                    <span>Configuración de servidores</span>
+                                </div>
+                                <div className="skill-item">
+                                    <span className="skill-dot"></span>
+                                    <span>Seguridad informática</span>
+                                </div>
+                            </div>
+                            <div className="orientacion-jobs">
+                                <span className="job-chip">Administrador de sistemas</span>
+                                <span className="job-chip">Técnico IT</span>
+                                <span className="job-chip">Especialista en seguridad</span>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="orientacion-detail-card">
-                        <div className="orientacion-image programacion">
-                            <h2>Programación</h2>
-                            <p>Desarrollador de Software</p>
-                        </div>
-                        <div className="orientacion-info">
-                            <h3>¿Por qué elegir Programación?</h3>
-                            <p>Si te fascina crear aplicaciones, resolver problemas con código y dar vida a ideas innovadoras, esta orientación te convertirá en un desarrollador capaz de:</p>
-                            <ul className="orientacion-features">
-                                <li>Desarrollar aplicaciones web y móviles</li>
-                                <li>Crear y gestionar bases de datos</li>
-                                <li>Implementar algoritmos y estructuras de datos</li>
-                                <li>Diseñar interfaces de usuario atractivas</li>
-                            </ul>
-                            
-                            <div className="salida-laboral">
-                                <h4>Salida Laboral</h4>
-                                <p>Los graduados de esta orientación pueden trabajar como:</p>
-                                <div className="job-tags">
-                                    <span className="job-tag">Desarrollador web</span>
-                                    <span className="job-tag">Desarrollador móvil</span>
-                                    <span className="job-tag">Analista de sistemas</span>
-                                    <span className="job-tag">Emprendedor tech</span>
+                    <div className="orientacion-card-modern">
+                        <div className="orientacion-visual programacion">
+                            <div className="programacion-bg">
+                                <svg className="code-pattern" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                    <text x="10" y="20" fill="rgba(255,255,255,0.1)" font-family="monospace" font-size="8">&lt;html&gt;</text>
+                                    <text x="15" y="35" fill="rgba(255,255,255,0.1)" font-family="monospace" font-size="6">&lt;body&gt;</text>
+                                    <text x="20" y="50" fill="rgba(255,255,255,0.1)" font-family="monospace" font-size="6">function()</text>
+                                    <text x="15" y="65" fill="rgba(255,255,255,0.1)" font-family="monospace" font-size="6">&lt;/body&gt;</text>
+                                    <text x="10" y="80" fill="rgba(255,255,255,0.1)" font-family="monospace" font-size="8">&lt;/html&gt;</text>
+                                </svg>
+                            </div>
+                            <div className="orientacion-overlay">
+                                <div className="orientacion-icon">
+                                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.4 16.6L4.8 12L9.4 7.4L8 6L2 12L8 18L9.4 16.6ZM14.6 16.6L19.2 12L14.6 7.4L16 6L22 12L16 18L14.6 16.6Z" fill="white"/>
+                                    </svg>
                                 </div>
+                            </div>
+                        </div>
+                        <div className="orientacion-content">
+                            <div className="orientacion-header">
+                                <h3>Programación</h3>
+                                <span className="orientacion-badge">Desarrollo de Software</span>
+                            </div>
+                            <p className="orientacion-description">
+                                Crea aplicaciones innovadoras y resuelve problemas con código. Desarrolla software que impacte el mundo digital.
+                            </p>
+                            <div className="orientacion-skills">
+                                <div className="skill-item">
+                                    <span className="skill-dot"></span>
+                                    <span>Desarrollo web y móvil</span>
+                                </div>
+                                <div className="skill-item">
+                                    <span className="skill-dot"></span>
+                                    <span>Gestión de bases de datos</span>
+                                </div>
+                                <div className="skill-item">
+                                    <span className="skill-dot"></span>
+                                    <span>Diseño de interfaces</span>
+                                </div>
+                            </div>
+                            <div className="orientacion-jobs">
+                                <span className="job-chip">Desarrollador web</span>
+                                <span className="job-chip">Desarrollador móvil</span>
+                                <span className="job-chip">Analista de sistemas</span>
                             </div>
                         </div>
                     </div>

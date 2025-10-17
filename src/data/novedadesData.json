@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "title": "EEST N°1 obtiene primer lugar en Olimpiadas de Programación Nacional",
+    "description": "Nuestros estudiantes de 6to año lograron el primer puesto en la competencia nacional de programación, destacándose entre más de 200 equipos participantes.",
+    "fullContent": "El equipo conformado por María González, Juan Pérez y Carlos Rodríguez de 6to año de la especialidad Informática, logró el primer lugar en las Olimpiadas Nacionales de Programación 2024. La competencia, que se realizó de manera virtual durante tres días consecutivos, contó con la participación de más de 200 equipos de todo el país. Los estudiantes resolvieron problemas complejos de algoritmos y estructuras de datos, demostrando un nivel excepcional de conocimiento y trabajo en equipo. Este logro posiciona a nuestra institución como una de las mejores en formación técnica del país.",
+    "author": "Dirección EEST N°1",
+    "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "date": "15 de Noviembre, 2024",
+    "image": "https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=600&h=400&fit=crop",
+    "initialLikes": 127,
+    "poll": {
+      "question": "¿Qué área técnica te gustaría que se fortalezca más en nuestra escuela?",
+      "options": ["Programación y Software", "Robótica y Automatización", "Redes y Telecomunicaciones", "Diseño y Multimedia"]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Inauguración del nuevo laboratorio de Robótica y Automatización",
+    "description": "Se inauguró oficialmente el laboratorio de última generación equipado con tecnología de punta para la formación en robótica industrial.",
+    "fullContent": "Con una inversión de más de $2.000.000, la EEST N°1 inauguró su nuevo laboratorio de Robótica y Automatización. El espacio cuenta con 15 estaciones de trabajo equipadas con brazos robóticos industriales, PLCs de última generación, sensores IoT y software de simulación profesional. El laboratorio permitirá a los estudiantes de las especialidades de Electrónica y Electromecánica acceder a tecnología similar a la utilizada en las principales industrias del país. La ceremonia de inauguración contó con la presencia del Ministro de Educación provincial y representantes de empresas tecnológicas locales que colaboraron con el proyecto.",
+    "author": "Prof. Ana Martínez",
+    "authorAvatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+    "date": "8 de Noviembre, 2024",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop",
+    "initialLikes": 89
+  },
+  {
+    "id": 3,
+    "title": "Estudiantes de Química desarrollan proyecto de purificación de agua",
+    "description": "Un grupo de estudiantes creó un sistema innovador de purificación de agua utilizando materiales reciclados y tecnología sustentable.",
+    "fullContent": "Los estudiantes de 5to año de la especialidad Química, bajo la supervisión de la Prof. Laura Fernández, desarrollaron un sistema de purificación de agua que combina filtración por carbón activado, ósmosis inversa y desinfección UV. El proyecto, que utiliza materiales reciclados en un 70%, logra purificar hasta 50 litros de agua por hora con una eficiencia del 99.8% en la eliminación de contaminantes. La iniciativa surgió como respuesta a la problemática del acceso al agua potable en comunidades rurales cercanas. El proyecto será presentado en la Feria Nacional de Ciencias y ya ha despertado el interés de ONGs ambientales para su implementación a mayor escala.",
+    "author": "Prof. Laura Fernández",
+    "authorAvatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "date": "2 de Noviembre, 2024",
+    "image": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=600&h=400&fit=crop",
+    "initialLikes": 156,
+    "poll": {
+      "question": "¿Qué proyecto sustentable te gustaría ver implementado en la escuela?",
+      "options": ["Paneles solares", "Huerta orgánica", "Sistema de reciclaje", "Captación de agua de lluvia"]
+    }
+  },
+  {
+    "id": 4,
+    "title": "Convenio con Universidad Tecnológica Nacional para prácticas profesionales",
+    "description": "Se firmó un acuerdo que permitirá a nuestros estudiantes realizar prácticas en los laboratorios universitarios y acceder a becas de estudio.",
+    "fullContent": "La EEST N°1 firmó un convenio marco con la Universidad Tecnológica Nacional (UTN) que beneficiará directamente a estudiantes de los últimos años. El acuerdo incluye: acceso a laboratorios universitarios para prácticas avanzadas, programa de tutorías con estudiantes universitarios, becas de estudio del 50% para egresados con promedio superior a 8, y participación en proyectos de investigación conjuntos. Además, se estableció un programa de articulación que permitirá a los estudiantes adelantar materias universitarias durante el último año de secundaria. El convenio también contempla la capacitación docente y el intercambio de recursos educativos entre ambas instituciones.",
+    "author": "Rector Ing. Roberto Silva",
+    "authorAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "date": "28 de Octubre, 2024",
+    "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop",
+    "initialLikes": 203
+  },
+  {
+    "id": 5,
+    "title": "Torneo Intercolegial de Matemática y Física 2024",
+    "description": "Nuestra escuela será sede del torneo anual que reunirá a más de 500 estudiantes de escuelas técnicas de toda la provincia.",
+    "fullContent": "Del 15 al 17 de diciembre, la EEST N°1 será sede del Torneo Intercolegial de Matemática y Física 2024. El evento, que se realiza por décimo año consecutivo, reunirá a más de 500 estudiantes de 45 escuelas técnicas de toda la provincia. Las competencias incluyen resolución de problemas matemáticos complejos, experimentos de física aplicada, y un desafío especial de ingeniería donde los equipos deberán construir estructuras resistentes con materiales limitados. Los ganadores recibirán becas de estudio y equipamiento tecnológico para sus escuelas. El torneo también incluye charlas magistrales de profesionales destacados y una feria de ciencias donde se exhibirán los mejores proyectos estudiantiles del año.",
+    "author": "Coordinación Académica",
+    "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "date": "25 de Octubre, 2024",
+    "image": "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?w=600&h=400&fit=crop",
+    "initialLikes": 78,
+    "poll": {
+      "question": "¿En qué competencia te gustaría participar?",
+      "options": ["Matemática", "Física", "Ingeniería", "Programación"]
+    }
+  },
+  {
+    "id": 6,
+    "title": "Programa de Intercambio Estudiantil con Alemania",
+    "description": "Se abrió la convocatoria para el programa de intercambio con escuelas técnicas alemanas, una oportunidad única de formación internacional.",
+    "fullContent": "Por segundo año consecutivo, la EEST N°1 participa del Programa de Intercambio Estudiantil con la Berufsschule für Technik de Múnich, Alemania. El programa ofrece a 10 estudiantes de 5to y 6to año la oportunidad de estudiar durante un semestre en Alemania, viviendo con familias anfitrionas y asistiendo a clases en alemán e inglés. Los participantes recibirán formación en tecnologías de Industria 4.0, automatización avanzada y gestión de calidad según estándares europeos. A cambio, nuestra escuela recibirá estudiantes alemanes que conocerán la realidad educativa argentina y participarán en proyectos locales. Los requisitos incluyen promedio mínimo de 8, nivel intermedio de inglés o alemán, y carta de motivación. Las becas cubren pasajes, alojamiento y seguro médico.",
+    "author": "Coordinación Internacional",
+    "authorAvatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+    "date": "20 de Octubre, 2024",
+    "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&h=400&fit=crop",
+    "initialLikes": 245
+  },
+  {
+    "id": 7,
+    "title": "Feria de Empleo y Emprendimiento Tecnológico",
+    "description": "Más de 30 empresas participarán en la feria anual donde estudiantes y egresados podrán acceder a oportunidades laborales y de emprendimiento.",
+    "fullContent": "El próximo 5 de diciembre se realizará la Feria de Empleo y Emprendimiento Tecnológico en las instalaciones de la EEST N°1. El evento contará con la participación de más de 30 empresas del sector tecnológico, industrial y de servicios que ofrecerán oportunidades laborales, pasantías y programas de capacitación. Entre las empresas confirmadas se encuentran Mercado Libre, Globant, Techint, y varias startups locales. La feria incluye: entrevistas laborales en vivo, talleres de armado de CV y preparación para entrevistas, charlas sobre emprendimiento tecnológico, y un concurso de ideas innovadoras con premios de hasta $500.000 para los mejores proyectos. También habrá un espacio dedicado a egresados emprendedores que compartirán sus experiencias y ofrecerán mentorías gratuitas.",
+    "author": "Departamento de Vinculación",
+    "authorAvatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "date": "18 de Octubre, 2024",
+    "image": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=600&h=400&fit=crop",
+    "initialLikes": 167,
+    "poll": {
+      "question": "¿Qué tipo de empresa te interesa más para trabajar?",
+      "options": ["Startup tecnológica", "Empresa multinacional", "Industria tradicional", "Emprendimiento propio"]
+    }
+  },
+  {
+    "id": 8,
+    "title": "Renovación completa del laboratorio de Electrónica",
+    "description": "Se completó la modernización del laboratorio con equipamiento de última generación valorado en más de $1.500.000.",
+    "fullContent": "Tras seis meses de trabajo, se completó la renovación integral del laboratorio de Electrónica de la EEST N°1. La modernización incluyó la instalación de 20 nuevas estaciones de trabajo con osciloscopios digitales, generadores de funciones, fuentes de alimentación regulables y multímetros de precisión. También se incorporaron kits de desarrollo con microcontroladores ARM, módulos IoT, y equipos para prototipado rápido con impresoras 3D. El laboratorio ahora cuenta con un sistema de gestión digital que permite a los estudiantes reservar equipos y acceder a simuladores desde sus dispositivos móviles. La inversión fue posible gracias al apoyo del gobierno provincial y donaciones de empresas del sector electrónico. El nuevo espacio beneficiará a más de 300 estudiantes de las especialidades de Electrónica y Telecomunicaciones.",
+    "author": "Jefe de Laboratorio Ing. Carlos Mendez",
+    "authorAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+    "date": "12 de Octubre, 2024",
+    "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=600&h=400&fit=crop",
+    "initialLikes": 134
+  },
+  {
+    "id": 9,
+    "title": "Proyecto de Energías Renovables gana concurso nacional",
+    "description": "El proyecto 'Micro-red Inteligente Escolar' desarrollado por estudiantes de 6to año obtuvo el primer premio nacional en innovación sustentable.",
+    "fullContent": "El proyecto 'Micro-red Inteligente Escolar', desarrollado por los estudiantes Sofía López, Diego Martín y Valentina Ruiz de 6to año Electromecánica, obtuvo el primer premio en el Concurso Nacional de Innovación Sustentable. El sistema integra paneles solares, aerogeneradores de baja potencia, baterías de litio y un sistema de gestión inteligente que optimiza el consumo energético de la escuela. La micro-red puede generar hasta 15 kW de potencia y ha logrado reducir el consumo de la red eléctrica convencional en un 40%. El proyecto incluye una aplicación móvil que permite monitorear en tiempo real la generación y consumo de energía. Los estudiantes recibirán una beca completa para estudiar Ingeniería en Energías Renovables y el proyecto será implementado como piloto en otras escuelas técnicas del país.",
+    "author": "Prof. Ing. Patricia Vega",
+    "authorAvatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+    "date": "5 de Octubre, 2024",
+    "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=400&fit=crop",
+    "initialLikes": 289,
+    "poll": {
+      "question": "¿Qué fuente de energía renovable consideras más viable para la escuela?",
+      "options": ["Energía solar", "Energía eólica", "Biomasa", "Energía geotérmica"]
+    }
+  },
+  {
+    "id": 10,
+    "title": "Semana de la Ciencia y la Tecnología 2024",
+    "description": "Del 21 al 25 de octubre se realizará la semana anual con conferencias, talleres y exhibiciones abiertas a toda la comunidad.",
+    "fullContent": "La EEST N°1 invita a toda la comunidad a participar de la Semana de la Ciencia y la Tecnología 2024. El evento incluye conferencias magistrales de científicos reconocidos, talleres prácticos para todas las edades, exhibiciones de proyectos estudiantiles y demostraciones de tecnología de vanguardia. Entre los invitados especiales se encuentran el Dr. Miguel Benasayag (investigador del CONICET en nanotecnología), la Ing. Carla Rodríguez (directora de innovación de una empresa aeroespacial), y el emprendedor tecnológico Martín Varsavsky. Los talleres incluyen programación para niños, robótica básica, experimentos de química divertida, y construcción de circuitos electrónicos. También habrá una muestra de arte digital creado por estudiantes y una competencia de videojuegos desarrollados en la escuela. Todas las actividades son gratuitas y abiertas al público.",
+    "author": "Comisión Organizadora",
+    "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    "date": "30 de Septiembre, 2024",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop",
+    "initialLikes": 198
+  }
+]

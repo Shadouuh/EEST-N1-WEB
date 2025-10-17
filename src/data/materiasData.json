@@ -1,0 +1,354 @@
+{
+  "materias": [
+    {
+      "id": 1,
+      "nombre": "Matemática I",
+      "orientacion": "Ciclo Básico",
+      "año": "1°",
+      "descripcion": "Fundamentos de álgebra y geometría básica",
+      "temas": ["Números enteros", "Fracciones", "Ecuaciones lineales", "Geometría plana"],
+      "pdfUrl": "/pdfs/matematica-1.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 2,
+      "nombre": "Lengua y Literatura I",
+      "orientacion": "Ciclo Básico",
+      "año": "1°",
+      "descripcion": "Comprensión lectora y expresión escrita",
+      "temas": ["Gramática", "Ortografía", "Comprensión de textos", "Redacción"],
+      "pdfUrl": "/pdfs/lengua-1.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 3,
+      "nombre": "Inglés I",
+      "orientacion": "Ciclo Básico",
+      "año": "1°",
+      "descripcion": "Inglés básico - nivel principiante",
+      "temas": ["Vocabulario básico", "Presente simple", "Artículos", "Pronombres"],
+      "pdfUrl": "/pdfs/ingles-1.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 4,
+      "nombre": "Ciencias Naturales I",
+      "orientacion": "Ciclo Básico",
+      "año": "1°",
+      "descripcion": "Introducción a las ciencias naturales",
+      "temas": ["Método científico", "Materia y energía", "Seres vivos", "Ecosistemas"],
+      "pdfUrl": "/pdfs/ciencias-naturales-1.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 5,
+      "nombre": "Historia I",
+      "orientacion": "Ciclo Básico",
+      "año": "1°",
+      "descripcion": "Historia antigua y medieval",
+      "temas": ["Civilizaciones antiguas", "Edad Media", "Feudalismo", "Cruzadas"],
+      "pdfUrl": "/pdfs/historia-1.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 6,
+      "nombre": "Matemática II",
+      "orientacion": "Ciclo Básico",
+      "año": "2°",
+      "descripcion": "Álgebra intermedia y geometría",
+      "temas": ["Sistemas de ecuaciones", "Funciones", "Trigonometría básica", "Áreas y volúmenes"],
+      "pdfUrl": "/pdfs/matematica-2.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 7,
+      "nombre": "Lengua y Literatura II",
+      "orientacion": "Ciclo Básico",
+      "año": "2°",
+      "descripcion": "Literatura argentina y análisis de textos",
+      "temas": ["Literatura argentina", "Análisis literario", "Géneros literarios", "Ensayo"],
+      "pdfUrl": "/pdfs/lengua-2.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 8,
+      "nombre": "Inglés II",
+      "orientacion": "Ciclo Básico",
+      "año": "2°",
+      "descripcion": "Inglés intermedio",
+      "temas": ["Pasado simple", "Futuro", "Condicionales", "Conversación básica"],
+      "pdfUrl": "/pdfs/ingles-2.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 9,
+      "nombre": "Física I",
+      "orientacion": "Ciclo Básico",
+      "año": "2°",
+      "descripcion": "Mecánica y cinemática",
+      "temas": ["Movimiento rectilíneo", "Fuerzas", "Trabajo y energía", "Momentum"],
+      "pdfUrl": "/pdfs/fisica-1.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 10,
+      "nombre": "Química I",
+      "orientacion": "Ciclo Básico",
+      "año": "2°",
+      "descripcion": "Química general e inorgánica",
+      "temas": ["Tabla periódica", "Enlaces químicos", "Reacciones químicas", "Estequiometría"],
+      "pdfUrl": "/pdfs/quimica-1.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 11,
+      "nombre": "Matemática III",
+      "orientacion": "Ciclo Básico",
+      "año": "3°",
+      "descripcion": "Álgebra avanzada y análisis matemático",
+      "temas": ["Logaritmos", "Funciones exponenciales", "Límites", "Derivadas básicas"],
+      "pdfUrl": "/pdfs/matematica-3.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 12,
+      "nombre": "Lengua y Literatura III",
+      "orientacion": "Ciclo Básico",
+      "año": "3°",
+      "descripcion": "Literatura universal y técnicas de escritura",
+      "temas": ["Literatura universal", "Técnicas narrativas", "Poesía", "Teatro"],
+      "pdfUrl": "/pdfs/lengua-3.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 13,
+      "nombre": "Inglés III",
+      "orientacion": "Ciclo Básico",
+      "año": "3°",
+      "descripcion": "Inglés intermedio-avanzado",
+      "temas": ["Presente perfecto", "Voz pasiva", "Reported speech", "Phrasal verbs"],
+      "pdfUrl": "/pdfs/ingles-3.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 14,
+      "nombre": "Física II",
+      "orientacion": "Ciclo Básico",
+      "año": "3°",
+      "descripcion": "Electricidad y magnetismo",
+      "temas": ["Corriente eléctrica", "Circuitos", "Campo magnético", "Inducción electromagnética"],
+      "pdfUrl": "/pdfs/fisica-2.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 15,
+      "nombre": "Química II",
+      "orientacion": "Ciclo Básico",
+      "año": "3°",
+      "descripcion": "Química orgánica básica",
+      "temas": ["Hidrocarburos", "Grupos funcionales", "Isomería", "Reacciones orgánicas"],
+      "pdfUrl": "/pdfs/quimica-2.pdf",
+      "color": "#8a0000"
+    },
+    {
+      "id": 16,
+      "nombre": "Análisis Matemático",
+      "orientacion": "Informática",
+      "año": "4°",
+      "descripcion": "Cálculo diferencial e integral",
+      "temas": ["Límites", "Derivadas", "Integrales", "Aplicaciones del cálculo"],
+      "pdfUrl": "/pdfs/analisis-matematico-4.pdf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": 17,
+      "nombre": "Sistemas Digitales",
+      "orientacion": "Informática",
+      "año": "4°",
+      "descripcion": "Fundamentos de sistemas digitales",
+      "temas": ["Sistemas de numeración", "Álgebra booleana", "Compuertas lógicas", "Circuitos combinacionales"],
+      "pdfUrl": "/pdfs/sistemas-digitales-4.pdf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": 18,
+      "nombre": "Arquitectura de Computadoras",
+      "orientacion": "Informática",
+      "año": "4°",
+      "descripcion": "Hardware y arquitectura de sistemas",
+      "temas": ["CPU", "Memoria", "Buses", "Periféricos"],
+      "pdfUrl": "/pdfs/arquitectura-computadoras-4.pdf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": 19,
+      "nombre": "Sistemas Operativos I",
+      "orientacion": "Informática",
+      "año": "4°",
+      "descripcion": "Fundamentos de sistemas operativos",
+      "temas": ["Procesos", "Memoria", "Archivos", "Entrada/Salida"],
+      "pdfUrl": "/pdfs/sistemas-operativos-1-4.pdf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": 20,
+      "nombre": "Redes I",
+      "orientacion": "Informática",
+      "año": "5°",
+      "descripcion": "Fundamentos de redes de computadoras",
+      "temas": ["Modelo OSI", "TCP/IP", "Ethernet", "Routing básico"],
+      "pdfUrl": "/pdfs/redes-1-5.pdf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": 21,
+      "nombre": "Base de Datos I",
+      "orientacion": "Informática",
+      "año": "5°",
+      "descripcion": "Diseño y gestión de bases de datos",
+      "temas": ["Modelo relacional", "SQL", "Normalización", "Diseño de BD"],
+      "pdfUrl": "/pdfs/base-datos-1-5.pdf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": 22,
+      "nombre": "Sistemas Operativos II",
+      "orientacion": "Informática",
+      "año": "5°",
+      "descripcion": "Administración avanzada de sistemas",
+      "temas": ["Administración Linux", "Scripts", "Servicios", "Seguridad"],
+      "pdfUrl": "/pdfs/sistemas-operativos-2-5.pdf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": 23,
+      "nombre": "Seguridad Informática",
+      "orientacion": "Informática",
+      "año": "6°",
+      "descripcion": "Principios de seguridad en sistemas",
+      "temas": ["Criptografía", "Firewalls", "Vulnerabilidades", "Auditoría"],
+      "pdfUrl": "/pdfs/seguridad-informatica-6.pdf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": 24,
+      "nombre": "Redes II",
+      "orientacion": "Informática",
+      "año": "6°",
+      "descripcion": "Administración avanzada de redes",
+      "temas": ["VLAN", "Routing avanzado", "QoS", "Troubleshooting"],
+      "pdfUrl": "/pdfs/redes-2-6.pdf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": 25,
+      "nombre": "Proyecto Final",
+      "orientacion": "Informática",
+      "año": "7°",
+      "descripcion": "Desarrollo de proyecto integrador",
+      "temas": ["Metodologías", "Documentación", "Implementación", "Presentación"],
+      "pdfUrl": "/pdfs/proyecto-final-informatica-7.pdf",
+      "color": "#c41e3a"
+    },
+    {
+      "id": 26,
+      "nombre": "Algoritmos y Estructuras de Datos",
+      "orientacion": "Programación",
+      "año": "4°",
+      "descripcion": "Fundamentos de programación y algoritmos",
+      "temas": ["Algoritmos básicos", "Arrays", "Listas", "Recursión"],
+      "pdfUrl": "/pdfs/algoritmos-estructuras-4.pdf",
+      "color": "#667eea"
+    },
+    {
+      "id": 27,
+      "nombre": "Programación I",
+      "orientacion": "Programación",
+      "año": "4°",
+      "descripcion": "Introducción a la programación",
+      "temas": ["Variables", "Condicionales", "Bucles", "Funciones"],
+      "pdfUrl": "/pdfs/programacion-1-4.pdf",
+      "color": "#667eea"
+    },
+    {
+      "id": 28,
+      "nombre": "Análisis de Sistemas",
+      "orientacion": "Programación",
+      "año": "4°",
+      "descripcion": "Metodologías de análisis de sistemas",
+      "temas": ["UML", "Casos de uso", "Diagramas", "Requerimientos"],
+      "pdfUrl": "/pdfs/analisis-sistemas-4.pdf",
+      "color": "#667eea"
+    },
+    {
+      "id": 29,
+      "nombre": "Programación II",
+      "orientacion": "Programación",
+      "año": "5°",
+      "descripcion": "Programación orientada a objetos",
+      "temas": ["Clases", "Objetos", "Herencia", "Polimorfismo"],
+      "pdfUrl": "/pdfs/programacion-2-5.pdf",
+      "color": "#667eea"
+    },
+    {
+      "id": 30,
+      "nombre": "Base de Datos",
+      "orientacion": "Programación",
+      "año": "5°",
+      "descripcion": "Bases de datos para desarrollo",
+      "temas": ["SQL avanzado", "Stored procedures", "Triggers", "Optimización"],
+      "pdfUrl": "/pdfs/base-datos-programacion-5.pdf",
+      "color": "#667eea"
+    },
+    {
+      "id": 31,
+      "nombre": "Desarrollo Web I",
+      "orientacion": "Programación",
+      "año": "5°",
+      "descripcion": "Desarrollo web frontend",
+      "temas": ["HTML5", "CSS3", "JavaScript", "Responsive design"],
+      "pdfUrl": "/pdfs/desarrollo-web-1-5.pdf",
+      "color": "#667eea"
+    },
+    {
+      "id": 32,
+      "nombre": "Programación III",
+      "orientacion": "Programación",
+      "año": "6°",
+      "descripcion": "Desarrollo de aplicaciones avanzadas",
+      "temas": ["Frameworks", "APIs", "Testing", "Deployment"],
+      "pdfUrl": "/pdfs/programacion-3-6.pdf",
+      "color": "#667eea"
+    },
+    {
+      "id": 33,
+      "nombre": "Desarrollo Web II",
+      "orientacion": "Programación",
+      "año": "6°",
+      "descripcion": "Desarrollo web backend",
+      "temas": ["Node.js", "Express", "MongoDB", "Authentication"],
+      "pdfUrl": "/pdfs/desarrollo-web-2-6.pdf",
+      "color": "#667eea"
+    },
+    {
+      "id": 34,
+      "nombre": "Desarrollo Móvil",
+      "orientacion": "Programación",
+      "año": "6°",
+      "descripcion": "Aplicaciones móviles nativas e híbridas",
+      "temas": ["React Native", "Flutter", "APIs móviles", "App Store"],
+      "pdfUrl": "/pdfs/desarrollo-movil-6.pdf",
+      "color": "#667eea"
+    },
+    {
+      "id": 35,
+      "nombre": "Proyecto Final",
+      "orientacion": "Programación",
+      "año": "7°",
+      "descripcion": "Desarrollo de aplicación completa",
+      "temas": ["Full Stack", "DevOps", "Testing", "Documentación"],
+      "pdfUrl": "/pdfs/proyecto-final-programacion-7.pdf",
+      "color": "#667eea"
+    }
+  ]
+}

@@ -12,6 +12,8 @@ import Bibloteca from "./pages/bibloteca/Bibloteca.jsx";
 import Cursos from "./pages/cursos/Cursos.jsx";
 import Olimpiadas from "./pages/olimpiadas/Olimpiadas.jsx";
 import Previas from "./pages/previas/Previas.jsx";
+import Contacto from "./pages/contacto/Contacto.jsx";
+import Novedades from "./pages/novedades/Novedades.jsx";
 const App = () => {
   return(
     <div className="app-container">
@@ -26,6 +28,8 @@ const App = () => {
             <Route path="/cursos" element={<Cursos />} />
             <Route path="/olimpiadas" element={<Olimpiadas />} />
             <Route path="/intensificacion" element={<Previas/>} />
+            <Route path="/contacto" element={<Contacto />} />
+            <Route path="/novedades" element={<Novedades />} />
           </Routes>
       </main>
       <footer>

@@ -17,15 +17,7 @@ const Navbar = () => {
                     <li>
                         <Link to="/">Inicio</Link>
                     </li>
-                    <li>
-                        <Link to="/cursos">Cursos</Link>
-                    </li>
-                    <li>
-                        <Link to="/biblioteca">Biblioteca</Link>
-                    </li>
-                    <li>
-                        <Link to="/olimpiadas">Olimpiadas</Link>
-                    </li>
+                   
                     <li>
                         <Link to="/intensificacion">Intensificacion | Previas</Link>
                     </li>
@@ -56,15 +48,6 @@ const Navbar = () => {
                 <ul>
                     <li>
                         <Link to="/">Inicio</Link>
-                    </li>
-                    <li>
-                        <Link to="/cursos">Cursos</Link>
-                    </li>
-                    <li>
-                        <Link to="/biblioteca">Biblioteca</Link>
-                    </li>
-                    <li>
-                        <Link to="/olimpiadas">Olimpiadas</Link>
                     </li>
                     <li>
                         <Link to="/intensificacion">Intensificacion | Previas</Link>

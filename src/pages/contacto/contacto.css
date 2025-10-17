@@ -1,0 +1,427 @@
+/* Página de Contacto */
+.contacto-page {
+    min-height: 100vh;
+    background: #f8f9fa;
+}
+
+/* Hero Section */
+.contacto-hero {
+    background: linear-gradient(135deg, #8B1538 0%, #A91B47 50%, #C41E3A 100%);
+    color: white;
+    padding: 120px 0 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.contacto-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+    opacity: 0.3;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    opacity: 0.95;
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+}
+
+/* Sección de Información de Contacto */
+.contacto-info-section {
+    padding: 80px 0;
+    background: white;
+}
+
+.contacto-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contacto-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+/* Información Principal */
+.info-principal h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.info-principal h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(135deg, #8B1538, #A91B47);
+    border-radius: 2px;
+}
+
+.institucion-descripcion {
+    font-size: 1.1rem;
+    color: #6c757d;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.info-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.info-card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(139, 21, 56, 0.08);
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: all 0.3s ease;
+    border: 1px solid #f1f3f4;
+}
+
+.info-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(139, 21, 56, 0.12);
+}
+
+.info-icon {
+    background: linear-gradient(135deg, #8B1538, #A91B47);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 4px 15px rgba(139, 21, 56, 0.2);
+}
+
+.info-details h3 {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.info-details p {
+    color: #6c757d;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Sección del Mapa */
+.mapa-section {
+    position: sticky;
+    top: 20px;
+}
+
+.mapa-container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(139, 21, 56, 0.08);
+    border: 1px solid #f1f3f4;
+}
+
+.mapa-container h3 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.mapa-wrapper {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.mapa-descripcion {
+    color: #6c757d;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+}
+
+/* Información Adicional */
+.info-adicional {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.stat-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(139, 21, 56, 0.08);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.3s ease;
+    border: 1px solid #f1f3f4;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(139, 21, 56, 0.12);
+}
+
+.stat-icon {
+    background: linear-gradient(135deg, #8B1538, #A91B47);
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 6px 20px rgba(139, 21, 56, 0.2);
+}
+
+.stat-content h3 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.stat-content p {
+    color: #6c757d;
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Call to Action */
+.contacto-cta {
+    text-align: center;
+    background: white;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(139, 21, 56, 0.08);
+    border: 1px solid #f1f3f4;
+}
+
+.contacto-cta h2 {
+    color: #2c3e50;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contacto-cta p {
+    color: #6c757d;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cta-btn.primary {
+    background: linear-gradient(135deg, #8B1538, #A91B47);
+    color: white;
+}
+
+.cta-btn.primary:hover {
+    background: linear-gradient(135deg, #A91B47, #C41E3A);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(139, 21, 56, 0.3);
+}
+
+.cta-btn.secondary {
+    background: white;
+    color: #8B1538;
+    border: 2px solid #8B1538;
+}
+
+.cta-btn.secondary:hover {
+    background: #8B1538;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(139, 21, 56, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .contacto-grid {
+        gap: 40px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+    
+    .contacto-hero {
+        padding: 100px 0 60px;
+    }
+    
+    .contacto-info-section {
+        padding: 60px 0;
+    }
+    
+    .contacto-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    
+    .info-principal h2 {
+        font-size: 2rem;
+    }
+    
+    .mapa-section {
+        position: static;
+    }
+    
+    .mapa-container {
+        padding: 20px;
+    }
+    
+    .mapa-wrapper iframe {
+        height: 300px !important;
+    }
+    
+    .info-adicional {
+        padding: 60px 0;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+        margin-bottom: 40px;
+    }
+    
+    .stat-card {
+        padding: 25px;
+        gap: 15px;
+    }
+    
+    .stat-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .contacto-cta {
+        padding: 40px 25px;
+    }
+    
+    .contacto-cta h2 {
+        font-size: 1.8rem;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-btn {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .contacto-hero {
+        padding: 80px 0 50px;
+    }
+    
+    .info-card {
+        padding: 20px;
+        gap: 15px;
+    }
+    
+    .info-icon {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .mapa-container {
+        padding: 15px;
+    }
+    
+    .contacto-cta {
+        padding: 30px 20px;
+    }
+}

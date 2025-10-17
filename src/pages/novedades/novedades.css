@@ -1,0 +1,493 @@
+/* Novedades Container */
+.novedades-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 2rem;
+}
+
+.novedades-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.novedades-header h1 {
+    font-size: 3rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.novedades-header p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* News Feed Layout */
+.news-feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* News Card Styles */
+.news-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* News Header */
+.news-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.news-author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.author-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--primary);
+}
+
+.author-info h4 {
+    margin: 0;
+    color: #333;
+    font-weight: 600;
+}
+
+.news-date {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.close-modal {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.close-modal:hover {
+    background: #f0f0f0;
+    color: var(--primary);
+}
+
+/* News Content */
+.news-content {
+    padding: 1.5rem;
+}
+
+.news-content h3 {
+    margin: 0 0 1rem 0;
+    color: #333;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.news-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.news-description {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Poll Styles */
+.news-poll {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+.news-poll h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+.poll-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.poll-option {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.poll-option button {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #ddd;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.poll-option button:hover:not(:disabled) {
+    border-color: var(--primary);
+    background: #f0f8ff;
+}
+
+.poll-option button:disabled {
+    cursor: not-allowed;
+}
+
+.poll-option button.voted {
+    background: #e8f5e8;
+    border-color: #4caf50;
+}
+
+.vote-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    background: var(--primary);
+    transition: width 0.5s ease;
+}
+
+.vote-percentage {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+/* News Actions */
+.news-actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #eee;
+    background: #fafafa;
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: none;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    color: #666;
+}
+
+.action-btn:hover {
+    background: #e0e0e0;
+    transform: scale(1.05);
+}
+
+.like-btn.liked {
+    color: #e91e63;
+}
+
+.like-btn.liked:hover {
+    background: #fce4ec;
+}
+
+.comment-btn:hover {
+    background: #e3f2fd;
+    color: #2196f3;
+}
+
+.share-btn:hover {
+    background: #e8f5e8;
+    color: #4caf50;
+}
+
+/* Comments Section */
+.comments-section {
+    border-top: 1px solid #eee;
+    padding: 1.5rem;
+    background: #fafafa;
+}
+
+.comments-section h4 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.comments-list {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+
+.comment {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+    border-left: 3px solid var(--primary);
+}
+
+.comment strong {
+    color: var(--primary);
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.comment p {
+    margin: 0.3rem 0;
+    color: #333;
+}
+
+.comment-time {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.add-comment {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.add-comment input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.add-comment input:focus {
+    border-color: var(--primary);
+}
+
+.add-comment button {
+    padding: 0.8rem 1.5rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.add-comment button:hover {
+    background: var(--accent);
+    transform: scale(1.05);
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 2rem;
+}
+
+.modal-container {
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    width: 100%;
+    border-radius: 15px;
+    background: white;
+}
+
+.modal-content {
+    cursor: default;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content:hover {
+    transform: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .novedades-container {
+        padding: 1rem;
+    }
+    
+    .novedades-header h1 {
+        font-size: 2.2rem;
+    }
+    
+    .novedades-header p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    
+    /* Instagram-style layout for mobile */
+    .news-feed {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        max-width: 500px;
+    }
+    
+    .news-card {
+        border-radius: 0;
+        margin-bottom: 2rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .news-image {
+        height: 300px;
+        border-radius: 0;
+    }
+    
+    .news-content h3 {
+        font-size: 1.2rem;
+    }
+    
+    .news-actions {
+        padding: 1rem;
+        justify-content: space-between;
+    }
+    
+    .action-btn {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    .modal-overlay {
+        padding: 0;
+    }
+    
+    .modal-container {
+        max-height: 100vh;
+        border-radius: 0;
+        margin: 0;
+    }
+    
+    .modal-content {
+        border-radius: 0;
+    }
+    
+    .poll-option button {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    .add-comment {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .add-comment input,
+    .add-comment button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .news-feed {
+        gap: 0.5rem;
+    }
+    
+    .news-header {
+        padding: 1rem;
+    }
+    
+    .news-content {
+        padding: 1rem;
+    }
+    
+    .author-avatar {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .news-content h3 {
+        font-size: 1.1rem;
+    }
+    
+    .news-description {
+        font-size: 0.9rem;
+    }
+}
+
+/* Animation for card entrance */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.news-card {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Scrollbar styling for comments */
+.comments-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.comments-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.comments-list::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 3px;
+}
+
+.comments-list::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
